@@ -11,6 +11,18 @@
 		ED339E3329FEA1490080D3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E3229FEA1490080D3E6 /* ContentView.swift */; };
 		ED339E3529FEA14C0080D3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E3429FEA14C0080D3E6 /* Assets.xcassets */; };
 		ED339E3929FEA14C0080D3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E3829FEA14C0080D3E6 /* Preview Assets.xcassets */; };
+		ED339E4129FEAEA20080D3E6 /* PlayMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4029FEAEA20080D3E6 /* PlayMenuScreen.swift */; };
+		ED339E4329FEB0980080D3E6 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4229FEB0980080D3E6 /* MenuButton.swift */; };
+		ED339E4829FEB4370080D3E6 /* LeaderboardViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4729FEB4370080D3E6 /* LeaderboardViewScreen.swift */; };
+		ED339E4A29FEB8640080D3E6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4929FEB8640080D3E6 /* SettingsScreen.swift */; };
+		ED339E5829FEBD1F0080D3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E5729FEBD1F0080D3E6 /* Assets.xcassets */; };
+		ED339E5B29FEBD1F0080D3E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED339E5A29FEBD1F0080D3E6 /* Preview Assets.xcassets */; };
+		ED339E5F29FEBD660080D3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E3229FEA1490080D3E6 /* ContentView.swift */; };
+		ED339E6029FEBD850080D3E6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4929FEB8640080D3E6 /* SettingsScreen.swift */; };
+		ED339E6129FEBD880080D3E6 /* LeaderboardViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4729FEB4370080D3E6 /* LeaderboardViewScreen.swift */; };
+		ED339E6229FEBD8C0080D3E6 /* PlayMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4029FEAEA20080D3E6 /* PlayMenuScreen.swift */; };
+		ED339E6329FEBF920080D3E6 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E4229FEB0980080D3E6 /* MenuButton.swift */; };
+		ED339E6429FEC09B0080D3E6 /* CrossPlatformAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED339E3029FEA1490080D3E6 /* CrossPlatformAppApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +32,24 @@
 		ED339E3429FEA14C0080D3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED339E3629FEA14C0080D3E6 /* CrossPlatformApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CrossPlatformApp.entitlements; sourceTree = "<group>"; };
 		ED339E3829FEA14C0080D3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED339E4029FEAEA20080D3E6 /* PlayMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMenuScreen.swift; sourceTree = "<group>"; };
+		ED339E4229FEB0980080D3E6 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		ED339E4729FEB4370080D3E6 /* LeaderboardViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewScreen.swift; sourceTree = "<group>"; };
+		ED339E4929FEB8640080D3E6 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		ED339E5129FEBD1E0080D3E6 /* CrossPlatformApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrossPlatformApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED339E5729FEBD1F0080D3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED339E5A29FEBD1F0080D3E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ED339E2A29FEA1490080D3E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED339E4E29FEBD1E0080D3E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				ED339E2F29FEA1490080D3E6 /* CrossPlatformApp */,
+				ED339E5229FEBD1E0080D3E6 /* CrossPlatformAppWatchOs Watch App */,
 				ED339E2E29FEA1490080D3E6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				ED339E2D29FEA1490080D3E6 /* CrossPlatformApp.app */,
+				ED339E5129FEBD1E0080D3E6 /* CrossPlatformApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +80,8 @@
 		ED339E2F29FEA1490080D3E6 /* CrossPlatformApp */ = {
 			isa = PBXGroup;
 			children = (
+				ED339E3F29FEAE5F0080D3E6 /* Screens */,
 				ED339E3029FEA1490080D3E6 /* CrossPlatformAppApp.swift */,
-				ED339E3229FEA1490080D3E6 /* ContentView.swift */,
 				ED339E3429FEA14C0080D3E6 /* Assets.xcassets */,
 				ED339E3629FEA14C0080D3E6 /* CrossPlatformApp.entitlements */,
 				ED339E3729FEA14C0080D3E6 /* Preview Content */,
@@ -65,6 +93,75 @@
 			isa = PBXGroup;
 			children = (
 				ED339E3829FEA14C0080D3E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED339E3F29FEAE5F0080D3E6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E4B29FEB8760080D3E6 /* Shared */,
+				ED339E4629FEB4200080D3E6 /* SettingsScreen */,
+				ED339E4529FEB40A0080D3E6 /* LeaderboardScreen */,
+				ED339E4429FEB2900080D3E6 /* PlayMenuScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ED339E4429FEB2900080D3E6 /* PlayMenuScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E4029FEAEA20080D3E6 /* PlayMenuScreen.swift */,
+			);
+			path = PlayMenuScreen;
+			sourceTree = "<group>";
+		};
+		ED339E4529FEB40A0080D3E6 /* LeaderboardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E4729FEB4370080D3E6 /* LeaderboardViewScreen.swift */,
+			);
+			path = LeaderboardScreen;
+			sourceTree = "<group>";
+		};
+		ED339E4629FEB4200080D3E6 /* SettingsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E4929FEB8640080D3E6 /* SettingsScreen.swift */,
+			);
+			path = SettingsScreen;
+			sourceTree = "<group>";
+		};
+		ED339E4B29FEB8760080D3E6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E4C29FEB87F0080D3E6 /* UI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ED339E4C29FEB87F0080D3E6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E3229FEA1490080D3E6 /* ContentView.swift */,
+				ED339E4229FEB0980080D3E6 /* MenuButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		ED339E5229FEBD1E0080D3E6 /* CrossPlatformAppWatchOs Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E5729FEBD1F0080D3E6 /* Assets.xcassets */,
+				ED339E5929FEBD1F0080D3E6 /* Preview Content */,
+			);
+			path = "CrossPlatformAppWatchOs Watch App";
+			sourceTree = "<group>";
+		};
+		ED339E5929FEBD1F0080D3E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED339E5A29FEBD1F0080D3E6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -89,6 +186,23 @@
 			productReference = ED339E2D29FEA1490080D3E6 /* CrossPlatformApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED339E5029FEBD1E0080D3E6 /* CrossPlatformApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED339E5C29FEBD1F0080D3E6 /* Build configuration list for PBXNativeTarget "CrossPlatformApp Watch App" */;
+			buildPhases = (
+				ED339E4D29FEBD1E0080D3E6 /* Sources */,
+				ED339E4E29FEBD1E0080D3E6 /* Frameworks */,
+				ED339E4F29FEBD1E0080D3E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrossPlatformApp Watch App";
+			productName = "CrossPlatformAppWatchOs Watch App";
+			productReference = ED339E5129FEBD1E0080D3E6 /* CrossPlatformApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +214,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					ED339E2C29FEA1490080D3E6 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ED339E5029FEBD1E0080D3E6 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -118,6 +235,7 @@
 			projectRoot = "";
 			targets = (
 				ED339E2C29FEA1490080D3E6 /* CrossPlatformApp */,
+				ED339E5029FEBD1E0080D3E6 /* CrossPlatformApp Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +250,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED339E4F29FEBD1E0080D3E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED339E5B29FEBD1F0080D3E6 /* Preview Assets.xcassets in Resources */,
+				ED339E5829FEBD1F0080D3E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,8 +266,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED339E4329FEB0980080D3E6 /* MenuButton.swift in Sources */,
 				ED339E3329FEA1490080D3E6 /* ContentView.swift in Sources */,
 				ED339E3129FEA1490080D3E6 /* CrossPlatformAppApp.swift in Sources */,
+				ED339E4129FEAEA20080D3E6 /* PlayMenuScreen.swift in Sources */,
+				ED339E4A29FEB8640080D3E6 /* SettingsScreen.swift in Sources */,
+				ED339E4829FEB4370080D3E6 /* LeaderboardViewScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED339E4D29FEBD1E0080D3E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED339E6029FEBD850080D3E6 /* SettingsScreen.swift in Sources */,
+				ED339E6429FEC09B0080D3E6 /* CrossPlatformAppApp.swift in Sources */,
+				ED339E6129FEBD880080D3E6 /* LeaderboardViewScreen.swift in Sources */,
+				ED339E6329FEBF920080D3E6 /* MenuButton.swift in Sources */,
+				ED339E6229FEBD8C0080D3E6 /* PlayMenuScreen.swift in Sources */,
+				ED339E5F29FEBD660080D3E6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +431,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ownTeam.CrossPlatformApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -325,10 +471,73 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ownTeam.CrossPlatformApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		ED339E5D29FEBD1F0080D3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossPlatformAppWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PY9TWBV6RF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = CrossPlatformApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		ED339E5E29FEBD1F0080D3E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CrossPlatformAppWatchOs Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = PY9TWBV6RF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_NAME = CrossPlatformApp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
 			};
 			name = Release;
 		};
@@ -349,6 +558,15 @@
 			buildConfigurations = (
 				ED339E3D29FEA14C0080D3E6 /* Debug */,
 				ED339E3E29FEA14C0080D3E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED339E5C29FEBD1F0080D3E6 /* Build configuration list for PBXNativeTarget "CrossPlatformApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED339E5D29FEBD1F0080D3E6 /* Debug */,
+				ED339E5E29FEBD1F0080D3E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
